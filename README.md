@@ -22,7 +22,7 @@ Finally, use the OpRaise() method on the byte array to raise the desired event. 
 @out.OpRaise(<event_code>);
 ```
 Raising Events with a Dictionary
-You can also raise events using a Dictionary<byte, object> by using the generic wrapper. This approach simplifies the process compared to manually calling OpRaiseEvent with the wrapped code. Here's an example:
+You can also raise events using a `Dictionary<byte, object>` by using the generic wrapper. This approach simplifies the process compared to manually calling OpRaiseEvent with the wrapped code. Here's an example:
 
 ```cs
 public static void DropPortal(Vector3 vect, float rotation)
