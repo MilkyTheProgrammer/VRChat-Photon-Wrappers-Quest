@@ -25,13 +25,13 @@ Raising Events with a Dictionary
 You can also raise events using a `Dictionary<byte, object>` by using the generic wrapper. This approach simplifies the process compared to manually calling OpRaiseEvent with the wrapped code. Here's an example:
 
 ```cs
-public static void DropPortal(Vector3 vect, float rotation)
+public static void Test(Vector3 vect, float rotation)
 {
   Dictionary<byte, object> dict = new Dictionary<byte, object> 
   { 
   };
   
-  dict.OpRaise(70);
+  dict.OpRaise(33);
 }
 ```
 In the above example, the OpRaise() method is used directly on the dictionary, making it simpler to raise the event. Replace <event_code> with the desired event code.
