@@ -29,10 +29,6 @@ public static void DropPortal(Vector3 vect, float rotation)
 {
   Dictionary<byte, object> dict = new Dictionary<byte, object> 
   { 
-    { 0, (byte)EnumPublicSealedvaREPORECRDECRUP9vREUnique.REQUEST_CREATE_DYNAMIC },
-    { 5, "<instance_shortname>" },
-    { 6, Serialization.Vector3ToBytes(vect) },
-    { 7, rotation }
   };
   
   dict.OpRaise(70);
