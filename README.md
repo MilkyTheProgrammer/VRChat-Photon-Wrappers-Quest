@@ -46,4 +46,4 @@ myObject.OpRaise(<event_code>);
 Replace <event_code> with the specific event code you want to use.
 
 ## Contact Information
-If you have any questions or need further assistance, you can reach out to me on Discord: Foonix#0001. Feel free to ask for help or clarification regarding the usage of the generic wrapper.
+If you have any questions or need further assistance, you can reach out to me on Discord: "foonix.". Feel free to ask for help or clarification regarding the usage of the generic wrapper.
